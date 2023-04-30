@@ -1,0 +1,163 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hyp.txt
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                          20
+ with errors                             95.0%   (  19)
+
+   with substitutions                    95.0%   (  19)
+   with deletions                         5.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   38.9%   (  35)
+
+Percent Correct           =   61.1%   (  55)
+
+Percent Substitution      =   37.8%   (  34)
+Percent Deletions         =    1.1%   (   1)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   61.1%
+
+
+Ref. words                =           (  90)
+Hyp. words                =           (  89)
+Aligned words             =           (  90)
+
+CONFUSION PAIRS                  Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    2  ->  آؤ ==> آو
+   2:    2  ->  آؤ ==> او
+   3:    2  ->  جاؤ ==> جاو
+   4:    1  ->  آئے ==> آئے؟
+   5:    1  ->  آجاؤ ==> جاؤ
+   6:    1  ->  باقاعدگی ==> باقائدگی
+   7:    1  ->  بند ==> بن
+   8:    1  ->  بھائی ==> بایی
+   9:    1  ->  بیٹھو ==> ہو
+  10:    1  ->  بیکار ==> بکر
+  11:    1  ->  تمیز ==> تمیس
+  12:    1  ->  تھوکو ==> توکم
+  13:    1  ->  جاؤ۔ ==> جاو
+  14:    1  ->  جایئں ==> جائیں
+  15:    1  ->  حد ==> ہد
+  16:    1  ->  خاموش ==> خموش
+  17:    1  ->  دیر ==> در
+  18:    1  ->  سے ==> سی
+  19:    1  ->  فوراً ==> فوراں
+  20:    1  ->  مت ==> مد
+  21:    1  ->  مت ==> مطبیٹ
+  22:    1  ->  مت ==> ہوا
+  23:    1  ->  محتاط ==> مہتاد
+  24:    1  ->  میرے ==> مرے
+  25:    1  ->  پابند ==> پابن
+  26:    1  ->  چلاؤ ==> safarچھتا
+  27:    1  ->  کرو۔ ==> کرو
+  28:    1  ->  کے ==> لکیا
+  29:    1  ->  ہاتھا ==> ہاتھ
+  30:    1  ->  ہو ==> ہوں
+  31:    1  ->  یہاں ==> جہاں
+     -------
+        34
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  لے
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    4  ->  آؤ
+   2:    3  ->  مت
+   3:    2  ->  جاؤ
+   4:    1  ->  آئے
+   5:    1  ->  آجاؤ
+   6:    1  ->  باقاعدگی
+   7:    1  ->  بند
+   8:    1  ->  بھائی
+   9:    1  ->  بیٹھو
+  10:    1  ->  بیکار
+  11:    1  ->  تمیز
+  12:    1  ->  تھوکو
+  13:    1  ->  جاؤ۔
+  14:    1  ->  جایئں
+  15:    1  ->  حد
+  16:    1  ->  خاموش
+  17:    1  ->  دیر
+  18:    1  ->  سے
+  19:    1  ->  فوراً
+  20:    1  ->  محتاط
+  21:    1  ->  میرے
+  22:    1  ->  پابند
+  23:    1  ->  چلاؤ
+  24:    1  ->  کرو۔
+  25:    1  ->  کے
+  26:    1  ->  ہاتھا
+  27:    1  ->  ہو
+  28:    1  ->  یہاں
+     -------
+        34
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    3  ->  جاو
+   2:    2  ->  آو
+   3:    2  ->  او
+   4:    1  ->  safarچھتا
+   5:    1  ->  آئے؟
+   6:    1  ->  باقائدگی
+   7:    1  ->  بایی
+   8:    1  ->  بن
+   9:    1  ->  بکر
+  10:    1  ->  تمیس
+  11:    1  ->  توکم
+  12:    1  ->  جاؤ
+  13:    1  ->  جائیں
+  14:    1  ->  جہاں
+  15:    1  ->  خموش
+  16:    1  ->  در
+  17:    1  ->  سی
+  18:    1  ->  فوراں
+  19:    1  ->  لکیا
+  20:    1  ->  مد
+  21:    1  ->  مرے
+  22:    1  ->  مطبیٹ
+  23:    1  ->  مہتاد
+  24:    1  ->  پابن
+  25:    1  ->  کرو
+  26:    1  ->  ہاتھ
+  27:    1  ->  ہد
+  28:    1  ->  ہو
+  29:    1  ->  ہوا
+  30:    1  ->  ہوں
+     -------
+        34
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+
